@@ -2,6 +2,7 @@
 
 ## Description
 Boilerplate for testing mobile apps.
+Based on this blog: https://www.barrage.net/blog/company/abstract-factory-in-cross-platform-testing
 
 Technologies:
 - Appium Server
@@ -14,7 +15,8 @@ Technologies:
 
 ## Visuals
 To be able to have the same test code for different platforms an Abstract Factory is implemented. It serves as a neat way of organizing tests and making them executable for multiple platforms. Interfaces prescribe the methods for interacting with screens. Those methods include locators and helper methods. Concrete classes implement interfaces and with that ensure that the test code works for different platforms. To instantiate concrete classes we use factories which are extended from an abstract class. Abstract class along with create methods can contain helper methods not specific to a platform. Concrete factories along with overridden create methods can contain platform-specific helper methods.
-![Alt text](<UML class - UML Class.png>)
+![image](https://github.com/FC122/wdiopium/assets/72666124/d9c0dd25-08a5-48b9-a5c0-f1b6aa94b932)
+
 
 ## Installation
 1. git clone wdio-appium
