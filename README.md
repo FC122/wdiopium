@@ -2,7 +2,7 @@
 
 ## Description
 Boilerplate for testing mobile apps.
-Based on this blog: https://www.barrage.net/blog/company/abstract-factory-in-cross-platform-testing
+Based on this blog I wrote: https://www.barrage.net/blog/technology/abstract-factory-in-cross-platform-testing
 
 Technologies:
 - Appium Server
